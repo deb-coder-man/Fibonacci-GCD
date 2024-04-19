@@ -30,6 +30,7 @@ public class fibGcd {
         // Calling the gcd function, and printing out the greater common divisor
         System.out.println("\nGreatest common dividsor between " + fibSum1 + " and " + fibSum2 + " is: " + gcd(fibSum1, fibSum2));
 
+        inp1.close();
     }
 
     // Function used to find the nth Fibonacci number

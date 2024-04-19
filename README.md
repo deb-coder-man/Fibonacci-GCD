@@ -22,6 +22,7 @@
 
 # Using the Program:
 Enter first nth number to find fibonacci sum for: 8 
+
 <b> Enter second nth number to find fibonacci sum for: 6
 
 <b>

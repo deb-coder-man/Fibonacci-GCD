@@ -21,19 +21,18 @@
     This function is used to find the gcd between two numbers. First the base case is if the remainder (num2), is 0 then the previous num2 (num1) is outputed as the gcd. If remainder (num2) doesn't equal zero then we output messages to track progess of the algorith, finally we use recursion and call the gcd function again, but this time the gcd function is called with num2 being the new num1, and num1 % num2 (gives the remainder when dividing num2 by num1) as the new num2. 
 
 # Using the Program:
-<b> Enter first nth number to find fibonacci sum for: 8 <b>
-<b>
+Enter first nth number to find fibonacci sum for: 8 <b>
 Enter second nth number to find fibonacci sum for: 6 <b>
-
-<b> A: 33<b>
+<b>
+A: 33<b>
 B:12 <b>
 Remainder: 9 <b>
 <b>
-<b> A: 12<b>
+A: 12<b>
 B:9 <b>
 Remainder: 3 <b>
 <b>
-<b> A: 9<b>
+A: 9<b>
 B:3 <b>
 Remainder: 0<b>
 <b>

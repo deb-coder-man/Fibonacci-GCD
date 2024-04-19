@@ -8,16 +8,16 @@
 *Lines 20 - 21:* <br>
     These lines are used to find the sum of the fibonacci numbers up to the two values from above. This is done by passing in the obtained indexes and adding two to them to a function that finds the nth fibonaci number (explained below). The results from the fibonacci function is then subtracted by 1, and this gives us the sum of the fibonacci numbers up to the numbers obtained above. 
 
-*Lines 24 - 28* <br>
+*Lines 24 - 28:* <br>
     These lines are used to make sure the fist parameter of the gcd function (explained below), is the larger out of the two sums that were calculated.
 
-*Line 31* <br>
+*Line 31:* <br>
     This line is used to call the gcd function and output the answer with an output message.
 
-*Lines 36 - 43, nthFib Function* <br>
+*Lines 36 - 43, nthFib Function:* <br>
     This function takes the index as an input and find the fibonacci number at the index. First variable to store phi (golden ratio), and psi (reciporal of golden ratio), were created. Then the Binet's equation was used to find the nth fibonacci number: phi^n - psi^n / sqrt(5). This finds the nth fibonacci number. 
 
-*Lines 46 - 58, gcd Function* <br>
+*Lines 46 - 58, gcd Function:* <br>
     This function is used to find the gcd between two numbers. First the base case is if the remainder (num2), is 0 then the previous num2 (num1) is outputed as the gcd. If remainder (num2) doesn't equal zero then we output messages to track progess of the algorith, finally we use recursion and call the gcd function again, but this time the gcd function is called with num2 being the new num1, and num1 % num2 (gives the remainder when dividing num2 by num1) as the new num2. 
 
 # Using the Program:
@@ -68,8 +68,8 @@ The max value that can be inputted is: 91. Any value above 91 will round to the 
 1. Go to the folder location where all the files for this program is save. <br>
 2. Open the terminal at this folder: <br>
 Different ways to do this but easiest way is to copy the folder path, then open up cmd/terminal (window/mac), finally type in the commad cd followed by a space and then the folder path. <br>
-3. Once you have opened a terminal at the folder, type in the command <b>*javac fibGcd.java*<b>, this will compile the code.<br>
-4. Finally you can run the code by typing in the command <b>*java fibGcd*<b>. <br>
+3. Once you have opened a terminal at the folder, type in the command **javac fibGcd.java**, this will compile the code.<br>
+4. Finally you can run the code by typing in the command **java fibGcd**. <br>
 <br>
 <b>Alternatively, you can open this folder in any IDE and simply run the code.<b>
 

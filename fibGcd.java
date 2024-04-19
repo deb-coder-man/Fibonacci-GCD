@@ -8,14 +8,40 @@ public class fibGcd {
         // Opening up scanner object to read input from user
         Scanner inp1 = new Scanner(System.in);
 
-        // Obtaining first nth value to find the fibonacci sum for
-        System.out.print("Enter first nth number to find fibonacci sum for: ");
-        int fib1Index = inp1.nextInt() - 1; // Need to minus one because of zero-indexing
+        int fib1Index;
+        int fib2Index;
 
-        // Obtaining second nth value to find the fibonacci sum for
-        System.out.print("Enter second nth number to find fibonacci sum for: ");
-        int fib2Index = inp1.nextInt() - 1; // Need to minus one because of zero-indexing
+        // Attempting to store values inputted by the user, if error is found (is non-numer or negative), then message will be printed and program will restart
+        try {
+            // Obtaining first nth value to find the fibonacci sum for
+            System.out.print("Enter first nth number to find fibonacci sum for: ");
+            fib1Index = inp1.nextInt() - 1; // Need to minus one because of zero-indexing
 
+            if (fib1Index < 0) {
+                System.out.println("Invalid input!! \n");
+                main(args);
+                inp1.close();
+                return;
+            }
+
+            // Obtaining second nth value to find the fibonacci sum for
+            System.out.print("Enter second nth number to find fibonacci sum for: ");
+            fib2Index = inp1.nextInt() - 1; // Need to minus one because of zero-indexing 
+
+            if (fib2Index < 0) {
+                System.out.println("Invalid input!! \n");
+                main(args);
+                inp1.close();
+                return;
+            }
+
+        } catch (Exception e) {
+            System.out.println("Invalid input!! \n");
+            main(args);
+            inp1.close();
+            return;
+        }
+    
         // Calling a function to obtain the nth + 2 fibonacci number, then minus 1 to find the sum of all fibonacci numbers up to that index
         long fibSum1 = nthFib(fib1Index + 2) -1;
         long fibSum2 = nthFib(fib2Index + 2) -1;

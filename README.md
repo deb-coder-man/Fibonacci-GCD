@@ -22,18 +22,21 @@
 
 # Using the Program:
 <b> Enter first nth number to find fibonacci sum for: 8 <b>
+<b>
 Enter second nth number to find fibonacci sum for: 6 <b>
 
 <b> A: 33<b>
 B:12 <b>
 Remainder: 9 <b>
+<b>
 <b> A: 12<b>
 B:9 <b>
 Remainder: 3 <b>
+<b>
 <b> A: 9<b>
 B:3 <b>
 Remainder: 0<b>
-
+<b>
 <b> Greatest common divisor between 33 and 12 is: 3 
 
 # Important Notes:

@@ -33,8 +33,8 @@ The max value that can be inputted is: 91. Any value above 91 will round to the 
 1. Go to the folder location where all the files for this program is save. <br>
 2. Open the terminal at this folder: <br>
 Different ways to do this but easiest way is to copy the folder path, then open up cmd/terminal (window/mac), finally type in the commad cd followed by a space and then the folder path. <br>
-3. Once you have opened a terminal at the folder, type in the command <b>javac fibGcd.java<b>, this will compile the code.<br>
-4. Finally you can run the code by typing in the command <b>java fibGcd<b>. <br>
+3. Once you have opened a terminal at the folder, type in the command <b>*javac fibGcd.java*<b>, this will compile the code.<br>
+4. Finally you can run the code by typing in the command <b>*java fibGcd*<b>. <br>
 <br>
 <b>Alternatively, you can open this folder in any IDE and simply run the code.<b>
 

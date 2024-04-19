@@ -22,19 +22,19 @@
 
 # Important Notes:
 In the nthFib function the values phi and psi were stored as doubles but the final output to the function is a long, this is because when using Binet's formula, the output is always an integer, meaning we can convert the doubles to long without losing information. <br>
-In Java the long variable can store up to 64 bits, meaning the max number the long variables can store is, 9,223,372,036,854,775,807 (9.2 quintillion). More on contrasint below. <br>
-The Binet's formals assumes zero-indexing, meaning the first fibonacci number is F(0) = 0, but when users are inputting a number they are not assuming zero-indexing, this means when a users inputs 4, they want to the find the sum of the first 4 fibonacci numbers, but with zero-indexing, the index must be 3, hence on lines 13 and 17, the values obtained by the user are decremented by 1.
+<br> In Java the long variable can store up to 64 bits, meaning the max number the long variables can store is, 9,223,372,036,854,775,807 (9.2 quintillion). More on contrasint below. <br>
+<br>The Binet's formals assumes zero-indexing, meaning the first fibonacci number is F(0) = 0, but when users are inputting a number they are not assuming zero-indexing, this means when a users inputs 4, they want to the find the sum of the first 4 fibonacci numbers, but with zero-indexing, the index must be 3, hence on lines 13 and 17, the values obtained by the user are decremented by 1.
 
 # Contrainst:
 The max value that can be inputted is: 91. Any value above 91 will round to the max number a long can store; 9,223,372,036,854,775,807 (9.2 quintillion). The program will still run but it can not compute the sum of the first >91 fibonacci numbers. <br>
-Values inputted must be positive integers. 
+<br> Values inputted must be positive integers. 
 
 # How to complie code:
 1. Go to the folder location where all the files for this program is save. <br>
-2. Open the terminal at this folder <br>
+2. Open the terminal at this folder: <br>
 Different ways to do this but easiest way is to copy the folder path, then open up cmd/terminal (window/mac), finally type in the commad cd followed by a space and then the folder path. <br>
-3. Once you have opened a termainl at the folder, type in the command *javac fibGcd.java*, this will compile the code.<br>
-4. Finally you can run the code by typing in the command *java fibGcd*. <br>
+3. Once you have opened a terminal at the folder, type in the command <b>javac fibGcd.java<b>, this will compile the code.<br>
+4. Finally you can run the code by typing in the command <b>java fibGcd<b>. <br>
 <br>
 <b>Alternatively, you can open this folder in any IDE and simply run the code.<b>
 

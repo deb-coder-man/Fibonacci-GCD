@@ -20,6 +20,22 @@
 *Lines 46 - 58, gcd Function* <br>
     This function is used to find the gcd between two numbers. First the base case is if the remainder (num2), is 0 then the previous num2 (num1) is outputed as the gcd. If remainder (num2) doesn't equal zero then we output messages to track progess of the algorith, finally we use recursion and call the gcd function again, but this time the gcd function is called with num2 being the new num1, and num1 % num2 (gives the remainder when dividing num2 by num1) as the new num2. 
 
+# Using the Program:
+<b> Enter first nth number to find fibonacci sum for: 8 <b>
+Enter second nth number to find fibonacci sum for: 6 <b>
+
+<b> A: 33<b>
+B:12 <b>
+Remainder: 9 <b>
+<b> A: 12<b>
+B:9 <b>
+Remainder: 3 <b>
+<b> A: 9<b>
+B:3 <b>
+Remainder: 0<b>
+
+<b> Greatest common divisor between 33 and 12 is: 3 
+
 # Important Notes:
 In the nthFib function the values phi and psi were stored as doubles but the final output to the function is a long, this is because when using Binet's formula, the output is always an integer, meaning we can convert the doubles to long without losing information. <br>
 <br> In Java the long variable can store up to 64 bits, meaning the max number the long variables can store is, 9,223,372,036,854,775,807 (9.2 quintillion). More on contrasint below. <br>
@@ -37,5 +53,6 @@ Different ways to do this but easiest way is to copy the folder path, then open 
 4. Finally you can run the code by typing in the command <b>*java fibGcd*<b>. <br>
 <br>
 <b>Alternatively, you can open this folder in any IDE and simply run the code.<b>
+
 
 

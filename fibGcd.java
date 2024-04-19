@@ -9,7 +9,7 @@ public class fibGcd {
         Scanner inp1 = new Scanner(System.in);
 
         // Obtaining first nth value to find the fibonacci sum for
-        System.out.print("Enter first nth number to find fibonacci sum for:");
+        System.out.print("Enter first nth number to find fibonacci sum for: ");
         int fib1Index = inp1.nextInt() - 1; // Need to minus one because of zero-indexing
 
         // Obtaining second nth value to find the fibonacci sum for
@@ -28,7 +28,7 @@ public class fibGcd {
         }
 
         // Calling the gcd function, and printing out the greater common divisor
-        System.out.println("\nGreatest common divider is: " +  gcd(fibSum1, fibSum2));
+        System.out.println("\nGreatest common dividsor between " + fibSum1 + " and " + fibSum2 + " is: " + gcd(fibSum1, fibSum2));
 
     }
 

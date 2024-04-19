@@ -21,22 +21,39 @@
     This function is used to find the gcd between two numbers. First the base case is if the remainder (num2), is 0 then the previous num2 (num1) is outputed as the gcd. If remainder (num2) doesn't equal zero then we output messages to track progess of the algorith, finally we use recursion and call the gcd function again, but this time the gcd function is called with num2 being the new num1, and num1 % num2 (gives the remainder when dividing num2 by num1) as the new num2. 
 
 # Using the Program:
+<b> Example 1 <b>:
+
 Enter first nth number to find fibonacci sum for: 8 <br>
 Enter second nth number to find fibonacci sum for: 6
 
 A: 33 <br>
-B:12 <br>
+B: 12 <br>
 Remainder: 9 <br>
 
 A: 12<br>
-B:9 <br>
+B: 9 <br>
 Remainder: 3 <br>
 
 A: 9<br>
-B:3 <br>
+B: 3 <br>
 Remainder: 0<br>
 
 Greatest common divisor between 33 and 12 is: 3 
+
+<b> Example 2 <b>:
+
+Enter first nth number to find fibonacci sum for: 3 <br>
+Enter second nth number to find fibonacci sum for: 5
+
+A: 7 <br>
+B: 2 <br>
+Remainder: 1 <br>
+
+A: 2<br>
+B: 1 <br>
+Remainder: 0 <br>
+
+Greatest common divisor between 7 and 2 is: 1 
 
 # Important Notes:
 In the nthFib function the values phi and psi were stored as doubles but the final output to the function is a long, this is because when using Binet's formula, the output is always an integer, meaning we can convert the doubles to long without losing information. <br>
